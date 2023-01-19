@@ -2,7 +2,7 @@ const express=require("express");
 const mongoose=require("mongoose");
 const jwt=require("jsonwebtoken");
 const cors=require("cors");
-const userModel = require("./model");
+const userModel = require("../model");
 const argon2 = require("argon2");
 const app=express();
 app.use(express.json());
